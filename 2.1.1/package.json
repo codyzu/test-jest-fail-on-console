@@ -1,0 +1,17 @@
+{
+  "name": "test-jest-fail-on-console-2_1_1",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest --config ./jest-restore.config.js",
+    "test-restore": "jest --config ./jest-restore.config.js",
+    "test-reset": "jest --config ./jest-restore.config.js"
+  },
+  "author": "codyzu",
+  "license": "ISC",
+  "dependencies": {
+    "jest": "^27.4.7",
+    "jest-fail-on-console": "2.1.1"
+  }
+}
